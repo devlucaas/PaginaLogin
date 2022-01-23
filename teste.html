@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela de Login</title>
+        <link rel="stylesheet" href="estilo.css"/>
+    </head>
+    <body>
+       <form method="post" action="blablabla.php" enctype="multipart/form-data"> 
+           <input type="hidden"  name="country" value="BR">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Primeiro Nome: <br>
+                    <input type="text" name="name" required minlength="4"/>
+                </label><br>
+
+                <label>
+                    Sobrenome Nome: <br>
+                    <input type="text" name="lastname" required/>
+                </label><br>
+                <label>
+                    Foto: <br>
+                    <input type="file" name="Foto" required  accept="image/*"/>
+                </label><br>
+            </fieldset>
+           
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label>
+                    Nome da Empresa: <br>
+                    <input type="text" name="companyname"/>
+                </label><br>
+
+                <label>
+                    Cargo: <br>
+                    <input type="text" name="companyjobtittle"/>
+                </label><br>
+            </fieldset>
+
+            <input  type="submit" value="cadastrar"/>
+
+
+       </form>
+         
+    </body>
+</html> 
